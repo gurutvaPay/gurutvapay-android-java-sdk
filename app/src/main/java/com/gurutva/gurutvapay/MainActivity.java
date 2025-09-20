@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements TransactionsAdapt
     private TransactionsAdapter adapter;
 
     // API key, change as needed
-    private String liveSaltKey1 = "live_234f901f-666f-46dc-a6ca-b656d42636e7";
+    private String liveSaltKey1 = "live_234f*************";
     private final String envBaseUrl = "https://api.gurutvapay.com/live";
 
     private final ExecutorService executor = Executors.newFixedThreadPool(2);
